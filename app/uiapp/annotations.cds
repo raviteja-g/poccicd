@@ -20,6 +20,9 @@ annotate service.Product with @(
             },
         ],
     },
+    UI.SelectionFields: [
+        name, price, description
+    ],
     UI.Facets : [
         {
             $Type : 'UI.ReferenceFacet',
