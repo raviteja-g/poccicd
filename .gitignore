@@ -8,6 +8,9 @@ default-*.json
 gen/
 node_modules/
 target/
+dist/*.zip*.tgz
+dist/*
+dist/
 
 # Web IDE, App Studio
 .che/
