@@ -5,17 +5,17 @@ annotate service.Product with @(
         Data : [
             {
                 $Type : 'UI.DataField',
-                Label : 'name',
+                Label : 'Name',
                 Value : name,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'price',
+                Label : 'Price',
                 Value : price,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'description',
+                Label : 'Description',
                 Value : description,
             },
         ],
@@ -31,17 +31,17 @@ annotate service.Product with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
-            Label : 'name',
+            Label : 'Name',
             Value : name,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'price',
+            Label : 'Price',
             Value : price,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'description',
+            Label : 'Description',
             Value : description,
         },
     ],
